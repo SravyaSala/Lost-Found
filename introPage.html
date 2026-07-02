@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/logoImag.jpg" rel="icon">  
+    <title>Lost and Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #009999; /* Updated primary color */
+            padding: 20px;
+            position: relative;
+        }
+        .top-left-icon {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 50px;  /* Adjust the size as needed */
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end; /* Align links to the right */
+            align-items: center;
+            padding: 10px 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .login-button {
+            background-color: #009999; /* Updated primary color */
+            color: white;
+            border: 2px solid white;
+            padding: 10px 15px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .login-button:hover {
+            background-color: #008080; /* Adjusted secondary color */
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #f0fbff;
+            border-radius: 40px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin: 0 0 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 0 0 30px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #009999; /* Updated primary color */
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #008080; /* Adjusted secondary color */
+        }
+        .steps {
+            text-align: center;
+            padding: 50px;
+        }
+        .steps h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .steps-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .step {
+            width: 300px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .step img {
+            width: 100px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #009999; /* Updated primary color */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #008080; /* Adjusted secondary color for footer links */
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .about {
+            padding: 30px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Add the logo image here -->
+        <img src="https://firebasestorage.googleapis.com/v0/b/ip-info-app.appspot.com/o/app_icon_final.png?alt=media&token=8c4a5fb7-aa7e-4d97-80f0-1a974e3bd48d" alt="Logo" class="top-left-icon">
+        
+        <nav>
+            <a href="#">FAQ</a>
+            <a href="#">Blog</a>
+            <a href="login2.html" >  <button class="login-button">Log In</button></a>
+        </nav>
+        <div class="hero">
+            <h1>Making Lost and Found Simple and Reliable</h1>
+            <p>Lost or found something? Let us assist you.</p>
+            <a href="login2.html">  <button>I Have Lost</button></a>
+             <a href="login2.html" ><button>I Have Found</button></a>
+        </div>
+    </header>
+
+    <section class="steps">
+        <h2>How We Help You</h2>
+        <div class="steps-container">
+            <div class="step">
+                <img src="https://play-lh.googleusercontent.com/zD5BTVWzKj_xdIZmOtMhSTHXWjazPeLunD1hIj6ZRC_yA3pfDuKDJVwgyaP1T27cp8c=w240-h480-rw" alt="Report Icon">
+                <h3>Report a lost or found item</h3>
+                <p>Fill in the details of your lost or found item to get started.</p>
+            </div>
+            <div class="step">
+                <img src="https://thumbs.dreamstime.com/b/personal-protection-icon-internet-privacy-symbol-password-protected-vector-eps-224301691.jpg" alt="Ownership Icon">
+                <h3>Prove ownership of the item</h3>
+                <p>Answer security questions to validate ownership.</p>
+            </div>
+            <div class="step">
+                <img src="https://cleverchoice.com/wp-content/uploads/2022/12/Group-111-150x150.png" alt="Get Back Icon">
+                <h3>Get it back!</h3>
+                <p>Retrieve your item once ownership is verified.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to simplifying the process of recovering lost items and reuniting them with their rightful owners. Our platform ensures quick and secure communication to make your experience hassle-free.</p>
+    </section>
+
+</body>
+</html>
