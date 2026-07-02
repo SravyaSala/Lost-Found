@@ -52,7 +52,7 @@ Lost_and_Found/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SravyaSala/Lost_and_Found.git
+git clone https://github.com/SravyaSala/Lost-Found.git
 cd Lost_and_Found
 ```
 
